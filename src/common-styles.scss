@@ -1,3 +1,18 @@
 $textFont: 'EB Garamond', serif;
 $headerFont: 'Brygada 1918', serif;
 $titleFont: 'Yuji Syuku', serif;
+
+$backgroundBeige: #bdbaae;
+$textWhite: #f3f4f0;
+
+.type-text {
+  font-family: $textFont;
+}
+
+.type-header {
+  font-family: $headerFont;
+}
+
+.type-title {
+  font-family: $titleFont;
+}
