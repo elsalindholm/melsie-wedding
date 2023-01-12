@@ -2,17 +2,25 @@ $textFont: 'EB Garamond', serif;
 $headerFont: 'Brygada 1918', serif;
 $titleFont: 'Yuji Syuku', serif;
 
-$backgroundBeige: #bdbaae;
+$backgroundBeige: #a9a79e;
+$backgroundWhite: #f3f4f0;
 $textWhite: #f3f4f0;
 
 .type-text {
   font-family: $textFont;
+  font-size: 18px;
+  margin: 16px;
+  max-width: 450px;
 }
 
 .type-header {
   font-family: $headerFont;
+  font-size: 30px;
+  margin: 35px 16px 16px 16px;
 }
 
 .type-title {
   font-family: $titleFont;
+  font-size: 55px;
+  margin: 20px;
 }
