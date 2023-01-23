@@ -1,12 +1,13 @@
 @import '../common-styles.scss';
 
-.wedding-section {
+.accommodation-section {
   width: 100%;
   padding: 50px 0;
-  background-color: $backgroundWhite;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  background-color: $backgroundWhite;
 }

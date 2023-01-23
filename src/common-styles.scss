@@ -24,3 +24,19 @@ $textWhite: #f3f4f0;
   font-size: 55px;
   margin: 20px;
 }
+
+.type-semibold {
+  font-weight: 600;
+}
+
+.flex-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

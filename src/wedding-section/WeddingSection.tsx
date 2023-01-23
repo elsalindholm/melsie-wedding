@@ -10,19 +10,19 @@ export const WeddingSection: React.FC = () => {
       <div className='type-text'>
         Our wedding will take place
         <br />
-        on the 1st November 2023
+        on the 5th November 2023
       </div>
       <div className='type-text'>
-        at Inglewood House Hotel & Spa
+        at Ednam House Hotel
         <br />
-        in Alloa, Scotland
+        in Kelso, Scotland
       </div>
 
       <hr />
 
       <div className='type-header'>Welcome drinks</div>
       <div className='type-text'>
-        Wednesday 31st October
+        Saturday 4th November
         <br />
         6pm - 8pm
       </div>
