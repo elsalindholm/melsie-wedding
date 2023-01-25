@@ -9,6 +9,10 @@ import { MainNav } from './main-nav/MainNav';
 import { WeddingSection } from './wedding-section/WeddingSection';
 import { LocationSection } from './location-section/LocationSection';
 import { AccommodationSection } from './accommodation-section/AccommodationSection';
+import { DresscodeSection } from './dresscode-section/DresscodeSection';
+import { RegistrySection } from './registry-section/RegistrySection';
+import { MenuSection } from './menu-section/MenuSection';
+import { RsvpSection } from './rsvp-section/RsvpSection';
 
 interface AppProps {
   appState: AppState;
@@ -22,6 +26,10 @@ export const App: React.FC<AppProps> = observer(({ appState }) => {
       <WeddingSection />
       <LocationSection />
       <AccommodationSection />
+      <MenuSection />
+      <DresscodeSection />
+      <RegistrySection />
+      <RsvpSection />
     </div>
   );
 });

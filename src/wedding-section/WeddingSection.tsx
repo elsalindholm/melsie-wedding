@@ -1,21 +1,29 @@
 import './wedding-section.scss';
 
 import React from 'react';
+import TreeImage from '../../assets/SouthQueensFerryTrees.jpg';
 
 export const WeddingSection: React.FC = () => {
   return (
     <div className='wedding-section'>
-      <div className='type-title'>Wedding</div>
+      <div className='row'>
+        <div className='tree-img-container'>
+          <img src={TreeImage} />
+        </div>
+        <div>
+          <div className='type-title'>Wedding</div>
 
-      <div className='type-text'>
-        Our wedding will take place
-        <br />
-        on the 5th November 2023
-      </div>
-      <div className='type-text'>
-        at Ednam House Hotel
-        <br />
-        in Kelso, Scotland
+          <div className='type-text'>
+            Our wedding will take place
+            <br />
+            on the 5th November 2023
+          </div>
+          <div className='type-text'>
+            at Ednam House Hotel
+            <br />
+            in Kelso, Scotland
+          </div>
+        </div>
       </div>
 
       <hr />
