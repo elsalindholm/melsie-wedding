@@ -1,0 +1,11 @@
+@import '../common-styles.scss';
+
+.how-to-get-there-section {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-color: $backgroundBeige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

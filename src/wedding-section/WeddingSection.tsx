@@ -1,7 +1,7 @@
 import './wedding-section.scss';
 
 import React from 'react';
-import TreeImage from '../../assets/SouthQueensFerryTrees.jpg';
+import TreeImage from '../../assets/SouthQueensferryTrees.jpg';
 
 export const WeddingSection: React.FC = () => {
   return (

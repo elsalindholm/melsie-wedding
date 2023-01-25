@@ -10,8 +10,7 @@ export const LocationSection: React.FC = () => {
 
   return (
     <div className='location-section'>
-      <div className='test' style={props}></div>
-      {/*<img src={HotelImage} />*/}
+      <div className='image-container' style={props}></div>
       <div className='text-container'>
         <div className='type-title'>Location</div>
         <div className='type-text'>Our wedding will be held at</div>

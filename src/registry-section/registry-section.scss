@@ -2,12 +2,34 @@
 
 .registry-section {
   width: 100%;
-  padding: 50px 0;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: $backgroundWhite;
+  height: 1100px;
+  position: relative;
+  background-color: $backgroundBeige;
+
+  .text-container {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .background-filter {
+    height: 400px;
+    width: 400px;
+    background-color: $backgroundWhite;
+    opacity: 0.7;
+  }
+
+  .image-container {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }

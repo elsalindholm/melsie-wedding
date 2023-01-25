@@ -1,5 +1,11 @@
-{
-  /*<div className='type-title'>How to get there</div>
+import './how-to-get-there-section.scss';
+
+import React from 'react';
+
+export const HowToGetThereSection: React.FC = () => {
+  return (
+    <div className='how-to-get-there-section'>
+      <div className='type-title'>How to get there</div>
       <div className='type-header'>By car</div>
       <div className='type-text'>
         Our venue is located in the heart of the Borders town Kelso. Google maps will direct you to
@@ -39,5 +45,7 @@
       <div className='type-text'>
         Please contact Elsa & Matt prior to the big day if you require further advice on how to get
         to the venue.
-      </div>*/
-}
+      </div>
+    </div>
+  );
+};
