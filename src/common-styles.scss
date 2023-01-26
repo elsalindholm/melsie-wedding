@@ -5,6 +5,7 @@ $titleFont: 'Yuji Syuku', serif;
 $backgroundBeige: #a9a79e;
 $backgroundWhite: #f3f4f0;
 $textWhite: #f3f4f0;
+$darkBeige: #8f8e86;
 
 .type-text {
   font-family: $textFont;
@@ -41,7 +42,8 @@ $textWhite: #f3f4f0;
   align-items: center;
 }
 
-.row {
-  width: 100%;
-  display: flex;
+a {
+  color: $darkBeige;
+  font-size: 16px;
+  font-weight: 600;
 }

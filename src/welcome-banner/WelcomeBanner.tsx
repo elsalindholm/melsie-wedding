@@ -1,12 +1,16 @@
 import './welcome-banner.scss';
 
-import React from 'react';
-import BannerImage from '../../assets/welcomeBannerBg.png';
+import React, { CSSProperties } from 'react';
+import BannerImage from '../../assets/SouthQueensferryTrees.jpg';
 
 export const WelcomeBanner: React.FC = () => {
+  const props: CSSProperties = {
+    backgroundImage: `url(${BannerImage})`,
+  };
+
   return (
     <div className='welcome-banner'>
-      <img src={BannerImage} className='banner-background' />
+      <div className='image-container' style={props}></div>
       <div className='text-container'>
         <div className='type-text'>November 1, 2023</div>
         <div className='type-title'>Elsa & Matt</div>

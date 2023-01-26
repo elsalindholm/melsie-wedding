@@ -1,32 +1,34 @@
 import './wedding-section.scss';
 
-import React from 'react';
-import TreeImage from '../../assets/SouthQueensferryTrees.jpg';
+import React, { CSSProperties } from 'react';
+import FlowerImage from '../../assets/FrostyFlower.jpg';
+import RingImage from '../../assets/EngagementRing.jpg';
 
 export const WeddingSection: React.FC = () => {
+  const propsFlower: CSSProperties = {
+    backgroundImage: `url(${FlowerImage})`,
+  };
+
   return (
     <div className='wedding-section'>
-      <div className='row'>
-        <div className='tree-img-container'>
-          <img src={TreeImage} />
+      <div className='wedding-info-container'>
+        <div className='image-container'>
+          <div className='flower-img' style={propsFlower}></div>
         </div>
-        <div>
+        <div className='text-container'>
           <div className='type-title'>Wedding</div>
-
           <div className='type-text'>
             Our wedding will take place
             <br />
             on the 5th November 2023
           </div>
           <div className='type-text'>
-            at Ednam House Hotel
+            in Ednam House Hotel
             <br />
-            in Kelso, Scotland
+            in Kelso, Scotland.
           </div>
         </div>
       </div>
-
-      <hr />
 
       <div className='type-header'>Welcome drinks</div>
       <div className='type-text'>

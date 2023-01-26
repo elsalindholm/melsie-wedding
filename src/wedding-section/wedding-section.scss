@@ -2,7 +2,7 @@
 
 .wedding-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 50px;
   position: relative;
   background-color: $backgroundWhite;
   display: flex;
@@ -11,12 +11,27 @@
   justify-content: center;
   text-align: center;
 
-  .tree-img-container {
+  .wedding-info-container {
     width: 100%;
-    img {
-      width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .image-container {
+      width: 50%;
       height: 100%;
-      object-fit: cover;
+
+      .flower-img {
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .text-container {
+      width: 50%;
+      height: 400px;
     }
   }
 }

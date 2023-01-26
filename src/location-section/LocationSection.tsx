@@ -14,14 +14,12 @@ export const LocationSection: React.FC = () => {
       <div className='text-container'>
         <div className='type-title'>Location</div>
         <div className='type-text'>Our wedding will be held at</div>
-        <div className='type-text'>
-          Ednam House Hotel
+        <div className='type-text type-semibold'>
+          Ednam House
           <br />
-          12 Whatever Road
+          Bridge Street
           <br />
-          Kelso
-          <br />
-          AB1 CD2
+          Kelso TD5 7HT
           <br />
           Scotland, UK
         </div>

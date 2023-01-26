@@ -24,39 +24,54 @@ export const AccommodationSection: React.FC = () => {
         if you cannot get a suitable room in Ednam House Hotel, not to worry, there are other
         options available in Kelso, within a couple of minutes' walk.
       </div>
-
-      <div className='hotel-info-container'>
-        <div className='type-text type-semibold'>Queen's Head Hotel</div>
-        <div className='type-text'>1min walk from venue</div>
-        <a href='http://queensheadhotelkelso.com/' target='_blank'>
-          queensheadhotelkelso.com
-        </a>
+      <div className='type-header'>Hotels</div>
+      <div className='hotel-list'>
+        <div className='hotel-info-container'>
+          <div className='type-text type-semibold'>Queen's Head Hotel</div>
+          <div className='type-text'>1min walk from venue</div>
+          <a href='http://queensheadhotelkelso.com/' target='_blank'>
+            queensheadhotelkelso.com
+          </a>
+        </div>
+        <div className='hotel-info-container'>
+          <div className='type-text type-semibold'>Inglestone House</div>
+          <div className='type-text'>3min walk from venue</div>
+          <a href='https://www.inglestonehouse.co.uk/' target='_blank'>
+            inglestonehouse.co.uk
+          </a>
+        </div>
+        <div className='hotel-info-container'>
+          <div className='type-text type-semibold'>Cross Keys Hotel</div>
+          <div className='type-text'>3min walk from venue</div>
+          <a href='https://www.cross-keys-hotel.co.uk/' target='_blank'>
+            cross-keys-hotel.co.uk
+          </a>
+        </div>
+        <div className='hotel-info-container'>
+          <div className='type-text type-semibold'>The Old Priory</div>
+          <div className='type-text'>4min walk from venue</div>
+          <a href='http://theoldpriorykelso.com/' target='_blank'>
+            theoldpriorykelso.com
+          </a>
+        </div>
       </div>
-      <div className='hotel-info-container'>
-        <div className='type-text type-semibold'>Inglestone House</div>
-        <div className='type-text'>3min walk from venue</div>
-        <a href='https://www.inglestonehouse.co.uk/' target='_blank'>
-          inglestonehouse.co.uk
-        </a>
-      </div>
-      <div className='hotel-info-container'>
-        <div className='type-text type-semibold'>Cross Keys Hotel</div>
-        <div className='type-text'>3min walk from venue</div>
-        <a href='https://www.cross-keys-hotel.co.uk/' target='_blank'>
-          cross-keys-hotel.co.uk
-        </a>
-      </div>
-      <div className='hotel-info-container'>
-        <div className='type-text type-semibold'>The Old Priory</div>
-        <div className='type-text'>4min walk from venue</div>
-        <a href='http://theoldpriorykelso.com/' target='_blank'>
-          theoldpriorykelso.com
-        </a>
-      </div>
-      <div className='type-text'>If you are looking for self-catering options, please check</div>
+      <div className='type-header'>Self-catering</div>
       <div className='type-text'>
-        AirBnB or Crabtree & Crabtree
-        https://www.crabtreeandcrabtree.com/regions/scottish-borders/kelso-jedburgh-surrounding-area/
+        If you are looking for self-catering options, we recommend checking
+      </div>
+      <div className='type-text'>
+        <a href='https://www.airbnb.co.uk/' target='_blank'>
+          AirBnB
+        </a>
+        <br />
+        or
+        <br />
+        <a
+          href='https://www.crabtreeandcrabtree.com/regions/scottish-borders/kelso-jedburgh-surrounding-area/'
+          target='_blank'
+        >
+          Crabtree & Crabtree
+        </a>
       </div>
     </div>
   );
