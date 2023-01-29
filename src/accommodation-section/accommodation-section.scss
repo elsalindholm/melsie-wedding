@@ -21,5 +21,22 @@
   .hotel-info-container {
     margin: 15px 0;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hotel-info-header {
+    font-family: $textFont;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .img-container {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }

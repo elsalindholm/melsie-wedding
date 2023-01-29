@@ -34,4 +34,18 @@
       height: 400px;
     }
   }
+
+  .timeline-cont {
+    width: 100%;
+
+    .timeline {
+      width: 50%;
+      height: 50px;
+      border-right: 3px solid black;
+    }
+  }
+
+  .type-header-m10 {
+    margin: 10px;
+  }
 }

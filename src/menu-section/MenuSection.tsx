@@ -30,6 +30,12 @@ export const MenuSection: React.FC = () => {
           <div></div>
           <div></div>
         </div>
+        <div className='type-text'>
+          Above you can find our wedding reception menu. Please choose one option for each course
+          and let us know your choices when you RSVP to our invitation. We have been advised of the
+          common allergens in the dishes, but we kindly ask you to let us know of any dietary
+          requirements when RSVPing so that we can make sure our venue can cater to your needs.
+        </div>
       </div>
     </div>
   );

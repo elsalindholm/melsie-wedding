@@ -2,9 +2,10 @@
 
 .main-nav {
   width: 100%;
-  height: auto;
+  height: 60px;
   padding: 0 30px;
-  background-color: $backgroundBeige;
+  position: absolute;
+  top: 390px;
 
   display: flex;
   justify-content: space-between;
@@ -15,5 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: $backgroundWhite;
   }
 }

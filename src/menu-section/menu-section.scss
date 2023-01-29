@@ -29,17 +29,8 @@
   }
 
   .course-type {
+    border-bottom: 2px solid $backgroundWhite;
+    padding-bottom: 5px;
     font-size: 22px;
-    &::after {
-      content: '';
-      position: absolute;
-      height: 2px;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: 10%;
-      background: $backgroundWhite;
-    }
   }
 }
