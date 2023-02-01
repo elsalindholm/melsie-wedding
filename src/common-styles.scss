@@ -26,6 +26,16 @@ $darkBeige: #8f8e86;
   margin: 20px;
 }
 
+@media only screen and (max-width: 450px) {
+  .type-title {
+    font-size: 35px;
+    margin: 10px;
+  }
+  .type-header {
+    font-size: 25px;
+  }
+}
+
 .type-semibold {
   font-weight: 600;
 }

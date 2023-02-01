@@ -24,22 +24,27 @@ export const AccommodationSection: React.FC = () => {
   return (
     <div className='accommodation-section'>
       <div className='type-title'>Accommodation</div>
+      <div className='type-header'>Ednam House Hotel</div>
       <div className='type-text'>
         Our venue has a good number of rooms available for those who wish to stay. The rooms are
         being held for our guests for a while and we encourage you to get in touch with the hotel as
         soon as possible to secure your room.
       </div>
       <div className='type-text'>
-        You can call Ednam House Hotel 073072862807 to make your booking
+        Please visit <a href='https://www.ednamhouse.com/'>Ednamhouse.com</a> for more information
+        on our venue.
+      </div>
+      <div className='type-text'>
+        You can call Ednam House Hotel 01573 224168 to make your booking
       </div>
       <div className='type-text'>Please mention that it's for the Elsa & Matt wedding.</div>
-      <div className='type-text'>Link to hotel</div>
+
       <div className='type-text'>Discount available??</div>
       <div className='type-text'>Please make sure you book your accommodation well in advance</div>
 
       <div className='type-header'>Other accommodation in Kelso</div>
       <div className='type-text'>
-        if you cannot get a suitable room in Ednam House Hotel, not to worry, there are other
+        If you cannot get a suitable room in Ednam House Hotel, not to worry, there are other
         options available in Kelso, within a couple of minutes' walk.
       </div>
       <div className='type-header'>Hotels</div>

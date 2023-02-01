@@ -14,20 +14,22 @@ export const MenuSection: React.FC = () => {
         <div className='type-title'>Menu</div>
         <div>
           <div className='course-type type-text type-semibold'>Starters</div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className='type-text'>
+            Starter 1 - salmon with potatoes and all kinds of fancy bits
+          </div>
+          <div className='type-text'>Starter 2 - ham and cheese sandwich</div>
+          <div className='type-text'>Starter 3 - vegan option</div>
         </div>
         <div>
           <div className='course-type type-text type-semibold'>Mains</div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className='type-text'>Main 1 - haggis and potatoes</div>
+          <div className='type-text'>Main 2 - salmon and potatoes with all kinds of greenery</div>
+          <div className='type-text'>Main 3 - vegan option</div>
         </div>
         <div>
           <div className='course-type type-text type-semibold'>Desserts</div>
-          <div></div>
-          <div></div>
+          <div className='type-text'>Dessert 1 - raspberry cheese cake</div>
+          <div className='type-text'>Dessert 2 - sticky toffee pudding and ice cream</div>
           <div></div>
         </div>
         <div className='type-text'>

@@ -13,6 +13,7 @@ import { RegistrySection } from './registry-section/RegistrySection';
 import { MenuSection } from './menu-section/MenuSection';
 import { RsvpSection } from './rsvp-section/RsvpSection';
 import { HowToGetThereSection } from './how-to-get-there-section/HowToGetThereSection';
+import { MainNav } from './main-nav/MainNav';
 
 interface AppProps {
   appState: AppState;
@@ -22,6 +23,7 @@ export const App: React.FC<AppProps> = observer(({ appState }) => {
   return (
     <div className='app'>
       <WelcomeBanner />
+      <MainNav />
       <WeddingSection />
       <LocationSection />
       <HowToGetThereSection />
