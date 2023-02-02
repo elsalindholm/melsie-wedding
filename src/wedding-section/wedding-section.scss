@@ -43,8 +43,17 @@
     }
   }
 
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .programme-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
   }
 
   .timeline-cont {

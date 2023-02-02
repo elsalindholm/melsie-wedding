@@ -53,5 +53,33 @@
     @media only screen and (min-width: 750px) {
       display: none;
     }
+
+    .menu-button {
+      color: $backgroundWhite;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      display: flex;
+      flex-direction: column;
+
+      .burger-slice {
+        width: 25px;
+        margin-top: 5px;
+        border-bottom: 2px solid $backgroundWhite;
+        &:last-of-type {
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .dropdown-menu {
+      width: 150px;
+      position: absolute;
+      top: 60px;
+      background-color: $darkBeige;
+    }
+    .dropdown-link {
+      padding: 10px;
+      color: $backgroundWhite;
+    }
   }
 }

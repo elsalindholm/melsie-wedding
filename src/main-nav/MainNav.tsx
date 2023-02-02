@@ -21,7 +21,20 @@ export const MainNav: React.FC = () => {
         <div className='nav-link type-text'>rsvp</div>
       </div>
       <div className='mobile-link-container'>
-        <button>menu</button>
+        <button className='menu-button'>
+          <div className='burger-slice'></div>
+          <div className='burger-slice'></div>
+          <div className='burger-slice'></div>
+        </button>
+        <div className='dropdown-menu'>
+          <div className='dropdown-link'>wedding</div>
+          <div className='dropdown-link'>location</div>
+          <div className='dropdown-link'>accommodation</div>
+          <div className='dropdown-link'>menu</div>
+          <div className='dropdown-link'>dress code</div>
+          <div className='dropdown-link'>registry</div>
+          <div className='dropdown-link'>rsvp</div>
+        </div>
       </div>
     </div>
   );
