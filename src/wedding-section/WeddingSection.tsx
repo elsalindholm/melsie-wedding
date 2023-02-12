@@ -1,8 +1,13 @@
 import './wedding-section.scss';
 
 import React from 'react';
+import { AppState } from '../AppState';
 
-export const WeddingSection: React.FC = () => {
+interface WeddingSectionProps {
+  appState: AppState;
+}
+
+export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
   return (
     <div id='wedding-anchor' className='wedding-section'>
       <div className='wedding-info-container'>
@@ -18,6 +23,8 @@ export const WeddingSection: React.FC = () => {
             <br />
             in Kelso, Scotland.
           </div>
+
+          <div className='type-text'>{appState.daysUntil} days to go!</div>
         </div>
       </div>
 

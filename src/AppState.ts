@@ -2,6 +2,7 @@ import { action, makeObservable, observable } from 'mobx';
 
 export class AppState {
   mobileMenuOpen = false;
+  daysUntil = 0;
 
   constructor() {
     makeObservable(this, {
@@ -11,6 +12,8 @@ export class AppState {
     });
 
     window.addEventListener('pointerdown', this.onPointerDown);
+
+    this.countdownTimer();
   }
 
   selectBurgerMenuItem(scrollToId: string) {
@@ -39,4 +42,15 @@ export class AppState {
       this.closeBurgerMenu();
     }
   };
+
+  private countdownTimer() {
+    const today = new Date();
+    const weddingDate = new Date(today.getFullYear(), 10, 5);
+
+    const oneDay = 1000 * 60 * 60 * 24;
+
+    const daysUntil = Math.ceil((weddingDate.getTime() - today.getTime()) / oneDay);
+
+    this.daysUntil = daysUntil;
+  }
 }

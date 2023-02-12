@@ -24,7 +24,7 @@ export const App: React.FC<AppProps> = observer(({ appState }) => {
     <div className='app'>
       <WelcomeBanner />
       <MainNav appState={appState} />
-      <WeddingSection />
+      <WeddingSection appState={appState} />
       <LocationSection />
       <HowToGetThereSection />
       <AccommodationSection />
