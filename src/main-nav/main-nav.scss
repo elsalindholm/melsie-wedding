@@ -80,6 +80,15 @@
       position: absolute;
       top: 60px;
       background-color: $darkBeige;
+      transition: all 0.2s linear;
+
+      &.open {
+        visibility: visible;
+      }
+
+      &.closed {
+        visibility: collapse;
+      }
     }
 
     .dropdown-link {

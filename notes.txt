@@ -6,3 +6,4 @@ Must have
 
 Could have
 - countdown timer
+- fix unwanted white space to right in android mobile mode

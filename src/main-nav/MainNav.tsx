@@ -3,15 +3,18 @@ import './main-nav.scss';
 import React, { CSSProperties } from 'react';
 import BannerImage from '../../assets/SouthQueensferryTrees.jpg';
 import { AppState } from '../AppState';
+import { observer } from 'mobx-react-lite';
 
 interface MainNavProps {
   appState: AppState;
 }
 
-export const MainNav: React.FC<MainNavProps> = ({ appState }) => {
+export const MainNav: React.FC<MainNavProps> = observer(({ appState }) => {
   const props: CSSProperties = {
     backgroundImage: `url(${BannerImage})`,
   };
+
+  const burgerOpenClass = appState.mobileMenuOpen ? 'open' : 'closed';
 
   return (
     <div className='main-nav'>
@@ -45,35 +48,56 @@ export const MainNav: React.FC<MainNavProps> = ({ appState }) => {
       </div>
 
       <div className='mobile-link-container'>
-        <button className='menu-button'>
+        <button className='menu-button' onClick={appState.toggleBurgerMenu}>
           <div className='burger-slice'></div>
           <div className='burger-slice'></div>
           <div className='burger-slice'></div>
         </button>
-        <div className='dropdown-menu'>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('wedding-anchor')}>
+        <div className={`dropdown-menu ${burgerOpenClass}`}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('wedding-anchor')}
+          >
             wedding
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('location-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('location-anchor')}
+          >
             location
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('accommodation-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('accommodation-anchor')}
+          >
             accommodation
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('menu-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('menu-anchor')}
+          >
             menu
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('dresscode-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('dresscode-anchor')}
+          >
             dress code
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('registry-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('registry-anchor')}
+          >
             registry
           </div>
-          <div className='dropdown-link' onClick={() => appState.scrollTo('rsvp-anchor')}>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('rsvp-anchor')}
+          >
             rsvp
           </div>
         </div>
       </div>
     </div>
   );
-};
+});
