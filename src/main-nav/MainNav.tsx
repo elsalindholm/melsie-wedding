@@ -11,6 +11,7 @@ export const MainNav: React.FC = () => {
   return (
     <div className='main-nav'>
       <div className='img-container' style={props}></div>
+
       <div className='desktop-link-container'>
         <div className='nav-link type-text'>wedding</div>
         <div className='nav-link type-text'>location</div>
@@ -20,6 +21,7 @@ export const MainNav: React.FC = () => {
         <div className='nav-link type-text'>registry</div>
         <div className='nav-link type-text'>rsvp</div>
       </div>
+
       <div className='mobile-link-container'>
         <button className='menu-button'>
           <div className='burger-slice'></div>

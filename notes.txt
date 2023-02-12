@@ -1,0 +1,8 @@
+Must have
+- anchor links to sections from toolbar
+- mobile mode works (dropdown menu)
+- finalise images and text
+- rsvp form
+
+Could have
+- countdown timer

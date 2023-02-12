@@ -8,9 +8,15 @@ import { AppState } from './AppState';
 
 const appState = new AppState();
 
-const root = createRoot(document.getElementById('app-root'));
+let container: HTMLElement = null;
+document.addEventListener('DOMContentLoaded', () => {
+  if (!container) {
+    container = document.getElementById('app-root') as HTMLElement;
+    const root = createRoot(container);
 
-root.render(<App appState={appState} />);
+    root.render(<App appState={appState} />);
+  }
+});
 
 if (module.hot) {
   module.hot.accept();
