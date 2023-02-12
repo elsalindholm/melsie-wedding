@@ -7,11 +7,14 @@ export class AppState {
     makeObservable(this, {
       mobileMenuOpen: observable,
       toggleBurgerMenu: action,
+      closeBurgerMenu: action,
     });
+
+    window.addEventListener('pointerdown', this.onPointerDown);
   }
 
   selectBurgerMenuItem(scrollToId: string) {
-    this.toggleBurgerMenu();
+    this.closeBurgerMenu();
     this.scrollTo(scrollToId);
   }
 
@@ -22,5 +25,18 @@ export class AppState {
 
   toggleBurgerMenu = () => {
     this.mobileMenuOpen = !this.mobileMenuOpen;
+  };
+
+  closeBurgerMenu() {
+    this.mobileMenuOpen = false;
+  }
+
+  private readonly onPointerDown = (event: PointerEvent) => {
+    // If didn't touch dropdown, close dropdown
+    const elem = event.target as HTMLElement;
+
+    if (!elem.classList.contains('dropdown-link')) {
+      this.closeBurgerMenu();
+    }
   };
 }
