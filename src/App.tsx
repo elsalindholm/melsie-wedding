@@ -23,7 +23,7 @@ export const App: React.FC<AppProps> = observer(({ appState }) => {
   return (
     <div className='app'>
       <WelcomeBanner />
-      <MainNav />
+      <MainNav appState={appState} />
       <WeddingSection />
       <LocationSection />
       <HowToGetThereSection />

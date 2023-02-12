@@ -4,7 +4,7 @@ import React from 'react';
 
 export const RsvpSection: React.FC = () => {
   return (
-    <div className='rsvp-section'>
+    <div id='rsvp-anchor' className='rsvp-section'>
       <div className='type-title'>RSVP</div>
       <div className='type-text'>
         We kindly ask you to let us know whether you will be able to join our celebrations by the

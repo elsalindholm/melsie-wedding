@@ -8,7 +8,7 @@ export const MenuSection: React.FC = () => {
     backgroundImage: `url(${BgImage})`,
   };
   return (
-    <div className='menu-section'>
+    <div id='menu-anchor' className='menu-section'>
       <div className='image-container' style={props}></div>
       <div className='text-container'>
         <div className='type-title'>Menu</div>

@@ -4,7 +4,7 @@ import React from 'react';
 
 export const DresscodeSection: React.FC = () => {
   return (
-    <div className='dresscode-section'>
+    <div id='dresscode-anchor' className='dresscode-section'>
       <div className='type-title'>Dresscode</div>
       <div className='type-text'>semi-formal</div>
       <div className='type-text'>

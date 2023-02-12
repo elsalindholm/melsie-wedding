@@ -9,7 +9,7 @@ export const LocationSection: React.FC = () => {
   };
 
   return (
-    <div className='location-section'>
+    <div id='location-anchor' className='location-section'>
       <div className='image-container' style={props}></div>
       <div className='text-container'>
         <div className='type-title'>Location</div>

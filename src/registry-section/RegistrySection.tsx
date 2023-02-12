@@ -9,7 +9,7 @@ export const RegistrySection: React.FC = () => {
   };
 
   return (
-    <div className='registry-section'>
+    <div id='registry-anchor' className='registry-section'>
       <div className='image-container' style={props}></div>
       <div className='text-container'>
         <div className='background-filter'></div>

@@ -22,7 +22,7 @@ export const AccommodationSection: React.FC = () => {
   };
 
   return (
-    <div className='accommodation-section'>
+    <div id='accommodation-anchor' className='accommodation-section'>
       <div className='type-title'>Accommodation</div>
       <div className='type-header'>Ednam House Hotel</div>
       <div className='type-text'>
