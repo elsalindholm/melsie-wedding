@@ -9,8 +9,7 @@ export const HowToGetThereSection: React.FC = () => {
       <div className='type-header'>By car</div>
       <div className='type-text'>
         Our venue is located in the heart of the Borders town Kelso. Google maps will direct you to
-        the correct place. There's free parking available at the venue. Alternatively, if there is
-        no space at the hotel parking lot, you can park at{' '}
+        the correct place. There's free parking available at the venue.
       </div>
 
       <div className='type-header'>By public transport</div>
@@ -36,11 +35,6 @@ export const HowToGetThereSection: React.FC = () => {
         Edinburgh airport is the closest airport to the venue. From there the simplest way is to
         take a tram into Edinburgh city centre, train from Waverley station to Tweedbank and a bus
         from Tweedbank to Kelso.
-      </div>
-      <div className='type-text'>
-        If you need toilet facilities during your journey, Edinburgh Waverley has a public toilet
-        (which costs maybe 20p?), the Tweedbank train has a toilet and there are toilets available
-        at Tweedbank station during the station cafe opening hours.
       </div>
       <div className='type-text'>
         Please contact Elsa & Matt prior to the big day if you require further advice on how to get

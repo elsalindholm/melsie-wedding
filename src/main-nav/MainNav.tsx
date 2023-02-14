@@ -10,16 +10,10 @@ interface MainNavProps {
 }
 
 export const MainNav: React.FC<MainNavProps> = observer(({ appState }) => {
-  const props: CSSProperties = {
-    backgroundImage: `url(${BannerImage})`,
-  };
-
   const burgerOpenClass = appState.mobileMenuOpen ? 'open' : 'closed';
 
   return (
     <div className='main-nav'>
-      <div className='img-container' style={props}></div>
-
       <div className='desktop-link-container'>
         <div className='nav-link type-text' onClick={() => appState.scrollTo('wedding-anchor')}>
           wedding
@@ -36,14 +30,14 @@ export const MainNav: React.FC<MainNavProps> = observer(({ appState }) => {
         <div className='nav-link type-text' onClick={() => appState.scrollTo('menu-anchor')}>
           menu
         </div>
-        <div className='nav-link type-text' onClick={() => appState.scrollTo('dresscode-anchor')}>
-          dress code
-        </div>
         <div className='nav-link type-text' onClick={() => appState.scrollTo('registry-anchor')}>
           registry
         </div>
         <div className='nav-link type-text' onClick={() => appState.scrollTo('rsvp-anchor')}>
           rsvp
+        </div>
+        <div className='nav-link type-text' onClick={() => appState.scrollTo('faq-anchor')}>
+          faq
         </div>
       </div>
 

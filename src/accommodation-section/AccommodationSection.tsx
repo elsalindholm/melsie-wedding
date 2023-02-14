@@ -26,26 +26,31 @@ export const AccommodationSection: React.FC = () => {
       <div className='type-title'>Accommodation</div>
       <div className='type-header'>Ednam House Hotel</div>
       <div className='type-text'>
-        Our venue has a good number of rooms available for those who wish to stay. The rooms are
-        being held for our guests for a while and we encourage you to get in touch with the hotel as
-        soon as possible to secure your room.
+        Our venue has rooms available for those who wish to stay. The rooms are currently being held
+        for our guests and we encourage you to get in touch with the hotel as soon as possible to
+        secure your room.
       </div>
       <div className='type-text'>
-        Please visit <a href='https://www.ednamhouse.com/'>Ednamhouse.com</a> for more information
-        on our venue.
+        Please visit{' '}
+        <a href='https://www.ednamhouse.com/' target='_blank'>
+          ednamhouse.com
+        </a>{' '}
+        for more information on our venue.
       </div>
       <div className='type-text'>
-        You can call Ednam House Hotel 01573 224168 to make your booking
+        The room rate for our guests is £132/night. If you need an extra bed/cot in the room, please
+        ask the hotel when booking.
       </div>
-      <div className='type-text'>Please mention that it's for the Elsa & Matt wedding.</div>
-
-      <div className='type-text'>Discount available??</div>
-      <div className='type-text'>Please make sure you book your accommodation well in advance</div>
+      <div className='type-text'>To secure a room, please call Ednam House Hotel</div>
+      <div className='type-text type-semibold'>01573 224168</div>
+      <div className='type-text'>
+        When booking a room, please mention that it's for Elsa & Matt's wedding on the 5th November.
+      </div>
 
       <div className='type-header'>Other accommodation in Kelso</div>
       <div className='type-text'>
         If you cannot get a suitable room in Ednam House Hotel, not to worry, there are other
-        options available in Kelso, within a couple of minutes' walk.
+        options available in Kelso within a couple of minutes' walk.
       </div>
       <div className='type-header'>Hotels</div>
       <div className='hotel-list'>
@@ -84,7 +89,7 @@ export const AccommodationSection: React.FC = () => {
       </div>
       <div className='type-header'>Self-catering</div>
       <div className='type-text'>
-        If you are looking for self-catering options, we recommend checking
+        If you are looking for self-catering options, we recommend starting by checking
       </div>
       <div className='type-text'>
         <a href='https://www.airbnb.co.uk/' target='_blank'>

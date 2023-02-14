@@ -14,23 +14,33 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
         <div className='text-container'>
           <div className='type-title'>Wedding</div>
           <div className='type-text'>
-            Our wedding will take place
-            <br />
-            on Sunday the 5th of November 2023
+            We warmly welcome you to celebrate this important day with us.
           </div>
+          <div className='type-text'>Our wedding will take place on</div>
           <div className='type-text'>
-            at Ednam House Hotel
+            Sunday the <span className='type-semibold'>5th of November 2023</span>
             <br />
-            in Kelso, Scotland.
+            at <span className='type-semibold'>Ednam House Hotel</span> in Kelso, Scotland.
           </div>
-
-          <div className='type-text'>{appState.daysUntil} days to go!</div>
+          <div className='wedding-counter'>
+            <div className='counter-section'>
+              <div className='counter-number'>{appState.daysUntil}</div>
+              <div className='counter-text'>days</div>
+            </div>
+            <div className='counter-section'>
+              <div className='counter-number'>{appState.hoursUntil}</div>
+              <div className='counter-text'>hours</div>
+            </div>
+            <div className='counter-section'>
+              <div className='counter-number'>{appState.minutesUntil}</div>
+              <div className='counter-text'>minutes</div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div className='programme-container'>
         <div className='flex-column'>
-          <div className='type-title'>Pre-wedding activities</div>
           <div className='type-header'>Welcome drinks</div>
           <div className='type-text'>
             Saturday 4th November
@@ -39,22 +49,16 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           </div>
           <div className='type-text'>
             If you are arriving to the hotel/area the night before, you are very welcome to join us
-            for a relaxed catch-up in
+            for a relaxed catch-up at Ednam House Hotel
           </div>
-          <div className='type-text'>Ednam House Hotel</div>
         </div>
         <div className='flex-column'>
-          <div className='type-title'>Wedding Day</div>
           <div className='type-header'>Ceremony</div>
           <div className='type-text'>
             Sunday 5th November
             <br />
-            Around 1pm, Time TBC
+            1pm
           </div>
-          {/*<div className='type-text'>
-            Please arrive promptly so that you have time to find your seat before the ceremony
-            begins at 1.30pm
-  </div>*/}
 
           <div className='timeline-cont'>
             <div className='timeline'></div>

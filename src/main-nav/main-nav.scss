@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  background-color: #d7d6d1;
 
   .desktop-link-container {
     width: 100%;
@@ -25,22 +26,13 @@
     }
   }
 
-  .img-container {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    filter: brightness(0.6);
-  }
-
   .nav-link {
     user-select: none;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $backgroundWhite;
+    color: black;
   }
 
   .mobile-link-container {

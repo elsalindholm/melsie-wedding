@@ -14,6 +14,7 @@ import { MenuSection } from './menu-section/MenuSection';
 import { RsvpSection } from './rsvp-section/RsvpSection';
 import { HowToGetThereSection } from './how-to-get-there-section/HowToGetThereSection';
 import { MainNav } from './main-nav/MainNav';
+import { FaqSection } from './faq-section/FaqSection';
 
 interface AppProps {
   appState: AppState;
@@ -29,9 +30,9 @@ export const App: React.FC<AppProps> = observer(({ appState }) => {
       <HowToGetThereSection />
       <AccommodationSection />
       <MenuSection />
-      <DresscodeSection />
       <RegistrySection />
       <RsvpSection />
+      <FaqSection />
     </div>
   );
 });

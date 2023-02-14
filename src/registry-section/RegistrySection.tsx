@@ -1,7 +1,7 @@
 import './registry-section.scss';
 
 import React, { CSSProperties } from 'react';
-import BgImage from '../../assets/InchcolmBeach.jpg';
+import BgImage from '../../assets/dryFlowerArt.jpg';
 
 export const RegistrySection: React.FC = () => {
   const props: CSSProperties = {
@@ -11,6 +11,7 @@ export const RegistrySection: React.FC = () => {
   return (
     <div id='registry-anchor' className='registry-section'>
       <div className='image-container' style={props}></div>
+      <div className='image-filter'></div>
       <div className='text-container'>
         <div className='background-filter'></div>
         <div>

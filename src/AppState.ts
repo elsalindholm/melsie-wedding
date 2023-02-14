@@ -3,6 +3,8 @@ import { action, makeObservable, observable } from 'mobx';
 export class AppState {
   mobileMenuOpen = false;
   daysUntil = 0;
+  hoursUntil = 0;
+  minutesUntil = 0;
 
   constructor() {
     makeObservable(this, {
@@ -45,12 +47,20 @@ export class AppState {
 
   private countdownTimer() {
     const today = new Date();
-    const weddingDate = new Date(today.getFullYear(), 10, 5);
+    const weddingDate = new Date(2023, 10, 5, 13, 0, 0);
 
     const oneDay = 1000 * 60 * 60 * 24;
+    const oneHour = 1000 * 60 * 60;
+    const oneMinute = 1000 * 60;
 
-    const daysUntil = Math.ceil((weddingDate.getTime() - today.getTime()) / oneDay);
+    const daysUntil = Math.floor((weddingDate.getTime() - today.getTime()) / oneDay);
+    const hoursUntil = Math.floor(((weddingDate.getTime() - today.getTime()) % oneDay) / oneHour);
+    const minutesUntil = Math.floor(
+      ((weddingDate.getTime() - today.getTime()) % oneHour) / oneMinute
+    );
 
     this.daysUntil = daysUntil;
+    this.hoursUntil = hoursUntil;
+    this.minutesUntil = minutesUntil;
   }
 }

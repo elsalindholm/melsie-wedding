@@ -11,6 +11,10 @@
   justify-content: center;
   text-align: center;
 
+  @media only screen and (max-width: 450px) {
+    padding: 20px 10px;
+  }
+
   .wedding-info-container {
     width: 100%;
     height: 100%;
@@ -34,8 +38,8 @@
     }
 
     .text-container {
-      width: 50%;
-      height: 400px;
+      width: 100%;
+      height: 500px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -68,5 +72,26 @@
 
   .type-header-m10 {
     margin: 10px;
+  }
+}
+
+.wedding-counter {
+  display: flex;
+  margin-top: 30px;
+
+  .counter-section {
+    margin: 0 10px;
+  }
+
+  .counter-number {
+    font-family: $titleFont;
+    font-size: 55px;
+    color: $darkBeige;
+  }
+
+  .counter-text {
+    font-family: $textFont;
+    font-size: 18px;
+    color: $darkBeige;
   }
 }

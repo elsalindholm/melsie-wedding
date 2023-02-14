@@ -15,7 +15,7 @@ export const LocationSection: React.FC = () => {
         <div className='type-title'>Location</div>
         <div className='type-text'>Our wedding will be held at</div>
         <div className='type-text type-semibold'>
-          Ednam House
+          Ednam House Hotel
           <br />
           Bridge Street
           <br />
