@@ -2,10 +2,12 @@ $textFont: 'EB Garamond', serif;
 $headerFont: 'Brygada 1918', serif;
 $titleFont: 'Yuji Syuku', serif;
 
-$backgroundBeige: #a9a79e;
-$backgroundWhite: #f3f4f0;
+//$backgroundBeige: #b2b0af;
+$backgroundBeige: #a9a49e;
+$backgroundWhite: #e4e3e1;
 $textWhite: #f3f4f0;
 $darkBeige: #8f8e86;
+$linkBeige: #777770;
 
 .type-text {
   font-family: $textFont;
@@ -24,10 +26,25 @@ $darkBeige: #8f8e86;
 .type-title {
   font-family: $titleFont;
   font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.type-site-title {
+  font-family: $titleFont;
+  font-size: 65px;
   margin: 20px;
 }
 
+.type-banner-text {
+  font-family: $textFont;
+  font-size: 20px;
+  margin: 16px;
+  max-width: 550px;
+  letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 450px) {
+  .type-site-title,
   .type-title {
     font-size: 35px;
     margin: 10px;
@@ -54,9 +71,12 @@ $darkBeige: #8f8e86;
 }
 
 a {
-  color: $darkBeige;
+  color: $linkBeige;
   font-size: 18px;
   font-weight: 600;
+  &.link-white {
+    color: $textWhite;
+  }
 }
 
 .text-beige {

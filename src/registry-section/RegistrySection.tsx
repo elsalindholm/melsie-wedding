@@ -1,7 +1,7 @@
 import './registry-section.scss';
 
 import React, { CSSProperties } from 'react';
-import BgImage from '../../assets/dryFlowerArt.jpg';
+import BgImage from '../../assets/CloseUpLeft.jpg';
 
 export const RegistrySection: React.FC = () => {
   const props: CSSProperties = {
@@ -16,12 +16,13 @@ export const RegistrySection: React.FC = () => {
         <div className='background-filter'></div>
         <div>
           <div className='type-title'>Registry</div>
-          <div className='type-text'>
+          {/*<div className='type-text'>
             The best present you could possibly give us is the celebration of our marriage.
           </div>
           <div className='type-text'>
             However, if you'd still like to spoil us, we've picked out a
-          </div>
+  </div>*/}
+          <div>Section still under construction...</div>
         </div>
       </div>
     </div>

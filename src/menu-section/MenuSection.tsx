@@ -1,7 +1,7 @@
 import './menu-section.scss';
 
 import React, { CSSProperties } from 'react';
-import BgImage from '../../assets/SouthQueensferryTrees.jpg';
+import BgImage from '../../assets/CloseUpRight.jpg';
 
 export const MenuSection: React.FC = () => {
   const props: CSSProperties = {

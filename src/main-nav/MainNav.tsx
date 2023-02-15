@@ -74,12 +74,6 @@ export const MainNav: React.FC<MainNavProps> = observer(({ appState }) => {
           </div>
           <div
             className='dropdown-link'
-            onClick={() => appState.selectBurgerMenuItem('dresscode-anchor')}
-          >
-            dress code
-          </div>
-          <div
-            className='dropdown-link'
             onClick={() => appState.selectBurgerMenuItem('registry-anchor')}
           >
             registry
@@ -89,6 +83,12 @@ export const MainNav: React.FC<MainNavProps> = observer(({ appState }) => {
             onClick={() => appState.selectBurgerMenuItem('rsvp-anchor')}
           >
             rsvp
+          </div>
+          <div
+            className='dropdown-link'
+            onClick={() => appState.selectBurgerMenuItem('faq-anchor')}
+          >
+            faq
           </div>
         </div>
       </div>

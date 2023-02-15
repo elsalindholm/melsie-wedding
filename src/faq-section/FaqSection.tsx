@@ -30,6 +30,13 @@ export const FaqSection: React.FC = () => {
           your faces than your phones. We have hired a photographer to take wonderful photos of the
           day and we'd love to share the best ones with you after the wedding!
         </div>
+        <div className='type-header'>Who made the beautiful artwork on your website?</div>
+        <div className='type-text'>
+          The lovely floral artwork on this website was created by Matt's mum, Dawn. It perfectly
+          encapsulates the theme for our wedding: The Winter Garden.
+        </div>
+        <div className='type-header'>I have more questions! How can I contact you?</div>
+        <div className='type-text'>You can reach us by email at elsaandmattwedding@gmail.com.</div>
       </div>
     </div>
   );

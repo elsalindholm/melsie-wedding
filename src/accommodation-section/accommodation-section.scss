@@ -2,7 +2,7 @@
 
 .accommodation-section {
   width: 100%;
-  padding: 50px;
+  padding: 50px 0;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,6 @@
   align-items: center;
   text-align: center;
   background-color: $backgroundWhite;
-
-  @media only screen and (max-width: 450px) {
-    padding: 20px 10px;
-  }
 
   .hotel-list {
     margin: 30px 0px;

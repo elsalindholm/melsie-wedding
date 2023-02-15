@@ -35,7 +35,7 @@ export const AccommodationSection: React.FC = () => {
         <a href='https://www.ednamhouse.com/' target='_blank'>
           ednamhouse.com
         </a>{' '}
-        for more information on our venue.
+        for more information about our venue.
       </div>
       <div className='type-text'>
         The room rate for our guests is £132/night. If you need an extra bed/cot in the room, please
