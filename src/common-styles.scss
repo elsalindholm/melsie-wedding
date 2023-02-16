@@ -55,7 +55,10 @@ $linkBeige: #777770;
 }
 
 @media only screen and (max-width: 450px) {
-  .type-site-title,
+  .type-site-title {
+    font-size: 45px;
+    margin: 10px;
+  }
   .type-title {
     font-size: 35px;
     margin: 10px;
