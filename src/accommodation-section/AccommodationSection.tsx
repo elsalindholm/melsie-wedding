@@ -47,9 +47,13 @@ export const AccommodationSection: React.FC = () => {
         When booking a room, please mention that it's for Elsa & Matt's wedding on the 5th November.
       </div>
       <div className='type-translation'>
-        Hääpaikkamme pitää huoneita toistaiseksi vieraitamme varten. Kahden hengen huoneen hinta on
-        £132/yö. Jos haluatte huoneen hotellistamme, suosittelemme varaamaan huoneen mahdollisimman
-        pian soittamalla suoraan hotellille.
+        Hääpaikkamme{' '}
+        <a href='https://www.ednamhouse.com/' target='_blank'>
+          Ednam House Hotel
+        </a>{' '}
+        pitää huoneita toistaiseksi vieraitamme varten. Kahden hengen huoneen hinta on £132/yö. Jos
+        haluatte huoneen hotellistamme, suosittelemme varaamaan huoneen mahdollisimman pian
+        soittamalla suoraan hotellille.
       </div>
       <div className='type-translation'>Hotellin puh. +441573 224168</div>
       <div className='type-translation'>
