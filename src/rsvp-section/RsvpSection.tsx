@@ -31,6 +31,23 @@ export const RsvpSection: React.FC = () => {
           elsaandmattwedding@gmail.com
           <br />
         </div>
+        <div className='translation-container'>
+          <div className='type-translation'>
+            Pyydämme teitä ystävällisesti vastaamaan kutsuumme maanantai 4. syyskuuta 2023 mennessä.
+            Voitte vastata alla olevan linkin kautta.
+          </div>
+          <a
+            className='link-white translation-link'
+            href='https://forms.gle/5fsYCDU5WkNMrmed9'
+            target='_blank'
+          >
+            Vastaa täällä
+          </a>
+          <div className='type-translation'>
+            Jos linkki ei jostain syystä toimi, voitte vastata sähköpostitse osoitteeseen
+            elsaandmattwedding@gmail.com.
+          </div>
+        </div>
       </div>
     </div>
   );

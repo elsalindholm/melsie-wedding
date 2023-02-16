@@ -22,6 +22,10 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           <br />
           at <span className='type-semibold'>Ednam House Hotel</span> in Kelso, Scotland.
         </div>
+        <div className='type-translation'>
+          Olette lämpimästi tervetulleita häihimme, jotka pidetään sunnuntaina 5. marraskuuta 2023,
+          Kelson kaupungissa, Skotlannissa. Hääpaikkanamme on Ednam House Hotel, Kelson keskustassa.
+        </div>
         <div className='wedding-counter'>
           <div className='counter-section'>
             <div className='counter-number'>{appState.daysUntil}</div>
@@ -50,6 +54,10 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
             If you are arriving to the hotel/area the night before, you are very welcome to join us
             for a relaxed catch-up at Ednam House Hotel.
           </div>
+          <div className='type-translation'>
+            Jos olette hotellilla/alueella jo häitä edeltävänä päivänä, olette lämpimästi
+            tervetulleita vaihtamaan kuulumisia rennoissa merkeissä Ednam House Hotellilla.
+          </div>
         </div>
         <div className='flex-column'>
           <div className='type-header'>Ceremony</div>
@@ -62,6 +70,10 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
             Our ceremony will take place in Ednam House Hotel. Please arrive at least 30 minutes
             before.
           </div>
+          <div className='type-translation'>
+            Hääseremoniamme pidetään Ednam House Hotellissa. Pyydämme teitä ystävällisesti saapumaan
+            hyvissäajoin, ainakin 30min ennen seremonian alkua.
+          </div>
           <div className='timeline-cont'>
             <div className='timeline'></div>
           </div>
@@ -70,6 +82,10 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           <div className='type-text'>Time TBC</div>
           <div className='type-text'>
             After the ceremony we will enjoy a glass of bubbly and take a few group photos.
+          </div>
+          <div className='type-translation'>
+            Seremonian jälkeen nautimme lasin kuplivaa ja otamme muutamat ryhmäkuvat valokuvaajan
+            kanssa.
           </div>
 
           <div className='timeline-cont'>
@@ -81,6 +97,9 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           <div className='type-text'>
             We will sit down and enjoy a celebratory meal at the reception space.
           </div>
+          <div className='type-translation'>
+            Siirrymme takaisin juhlasaliin nauttimaan juhla-aterian.
+          </div>
 
           <div className='timeline-cont'>
             <div className='timeline'></div>
@@ -89,6 +108,7 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           <div className='type-header type-header-m10'>Cèilidh</div>
           <div className='type-text'>Time TBC</div>
           <div className='type-text'>We continue to dance the night away.</div>
+          <div className='type-translation'>Jatkamme juhlaa tanssin merkeissä.</div>
         </div>
       </div>
     </div>

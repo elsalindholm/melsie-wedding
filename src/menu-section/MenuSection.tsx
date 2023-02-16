@@ -17,6 +17,10 @@ export const MenuSection: React.FC = () => {
           We're still picking our menu for the reception. Once it's ready we will ask you to pick
           your menu choices.
         </div>
+        <div className='type-translation'>
+          Kun olemme valinneet ruokalistavaihtoehtomme, otamme vieraisiimme yhteyttä, jotta voitte
+          valita teille sopivan menuvaihtoehdon.
+        </div>
 
         {/*<div>
           <div className='course-type type-text type-semibold'>Starters</div>

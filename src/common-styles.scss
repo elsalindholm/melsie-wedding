@@ -11,7 +11,7 @@ $linkBeige: #777770;
 
 .type-text {
   font-family: $textFont;
-  font-size: 18px;
+  font-size: 20px;
   margin: 16px;
   max-width: 550px;
   letter-spacing: 1px;
@@ -32,7 +32,7 @@ $linkBeige: #777770;
 .type-site-title {
   font-family: $titleFont;
   font-size: 65px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .type-banner-text {
@@ -41,6 +41,17 @@ $linkBeige: #777770;
   margin: 16px;
   max-width: 550px;
   letter-spacing: 1px;
+}
+
+.type-translation {
+  font-family: $textFont;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px;
+  max-width: 550px;
+  letter-spacing: 1px;
+  color: #5a5650;
 }
 
 @media only screen and (max-width: 450px) {
@@ -56,6 +67,10 @@ $linkBeige: #777770;
 
 .type-semibold {
   font-weight: 600;
+}
+
+.type-black {
+  color: black;
 }
 
 .flex-row {

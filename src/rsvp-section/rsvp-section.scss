@@ -3,7 +3,7 @@
 .rsvp-section {
   width: 100%;
   //padding: 50px 0;
-  height: 500px;
+  height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,14 @@
   text-align: center;
   color: $textWhite;
 
-  @media only screen and (max-width: 400px) {
-    height: 550px;
+  @media only screen and (max-width: 339px) {
+    height: 1000px;
+  }
+  @media only screen and (min-width: 340px) and (max-width: 359px) {
+    height: 950px;
+  }
+  @media only screen and (min-width: 360px) and (max-width: 400px) {
+    height: 900px;
   }
 
   .text-container {
@@ -45,5 +51,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .type-translation {
+    color: $textWhite;
+  }
+
+  .translation-container {
+    margin: 40px 0;
+  }
+
+  .translation-link {
+    text-transform: uppercase;
   }
 }

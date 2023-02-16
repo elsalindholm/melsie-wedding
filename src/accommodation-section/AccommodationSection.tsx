@@ -46,12 +46,28 @@ export const AccommodationSection: React.FC = () => {
       <div className='type-text'>
         When booking a room, please mention that it's for Elsa & Matt's wedding on the 5th November.
       </div>
+      <div className='type-translation'>
+        Hääpaikkamme pitää huoneita toistaiseksi vieraitamme varten. Kahden hengen huoneen hinta on
+        £132/yö. Jos haluatte huoneen hotellistamme, suosittelemme varaamaan huoneen mahdollisimman
+        pian soittamalla suoraan hotellille.
+      </div>
+      <div className='type-translation'>Hotellin puh. +441573 224168</div>
+      <div className='type-translation'>
+        Huonetta varatessanne, mainitsettehan, että kyseessä ovat Elsan ja Mattin häät. Teiltä ei
+        tulla ottamaan maksua huonetta varatessanne. Maksu otetaan yleensä 24 tuntia ennen varauksen
+        alkua. Lisätietoa tästä saatte hotellilta.
+      </div>
 
       <div className='type-header'>Other accommodation in Kelso</div>
       <div className='type-text'>
         If you cannot get a suitable room in Ednam House Hotel, not to worry, there are other
         options available in Kelso within a couple of minutes' walk.
       </div>
+      <div className='type-translation'>
+        Jos hotellistamme ei löydy teille sopivaa huonetta, lähistöltä löytyy muitakin
+        majoitusvaihtoehtoja. Alla linkit muutamaan hotellivaihtoehtoon ja self-catering asuntoon.
+      </div>
+
       <div className='type-header'>Hotels</div>
       <div className='hotel-list'>
         <div className='hotel-info-container'>
