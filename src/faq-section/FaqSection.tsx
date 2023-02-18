@@ -28,7 +28,7 @@ export const FaqSection: React.FC = () => {
           Your invitation will have a (+1) symbol next to your name if a plus one is allowed.
         </div>
         <div className='type-translation'>
-          Hääkutsussa nimesi vieressä on (+1), jos avec sallitaan.
+          Hääkutsussa nimenne vieressä on (+1), jos avec sallitaan.
         </div>
         <div className='type-header'>What kind of ceremony are you having?</div>
         <div className='type-text type-semibold'>Millainen hääseremonianne tulee olemaan?</div>
@@ -65,7 +65,7 @@ export const FaqSection: React.FC = () => {
         <div className='type-text type-semibold'>Miten voin ottaa teihin yhteyttä?</div>
         <div className='type-text'>You can reach us by email at elsaandmattwedding@gmail.com.</div>
         <div className='type-translation'>
-          Voit ottaa meihin yhteyttä sähköpostitse osoitteeseen elsaandmattwedding@gmail.com.
+          Voitte ottaa meihin yhteyttä sähköpostitse osoitteeseen elsaandmattwedding@gmail.com.
         </div>
       </div>
     </div>
