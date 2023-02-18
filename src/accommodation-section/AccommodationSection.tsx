@@ -44,7 +44,8 @@ export const AccommodationSection: React.FC = () => {
       <div className='type-text'>To secure a room, please call Ednam House Hotel</div>
       <div className='type-text type-semibold'>01573 224168</div>
       <div className='type-text'>
-        When booking a room, please mention that it's for Elsa & Matt's wedding on the 5th November.
+        When booking a room, please mention that it's for Elsa Lindholm & Matt Newbigging's wedding
+        on the 5th November.
       </div>
       <div className='type-translation'>
         Hääpaikkamme{' '}
@@ -57,9 +58,9 @@ export const AccommodationSection: React.FC = () => {
       </div>
       <div className='type-translation'>Hotellin puh. +441573 224168</div>
       <div className='type-translation'>
-        Huonetta varatessanne, mainitsettehan, että kyseessä ovat Elsan ja Mattin häät. Teiltä ei
-        tulla ottamaan maksua huonetta varatessanne. Maksu otetaan yleensä 24 tuntia ennen varauksen
-        alkua. Lisätietoa tästä saatte hotellilta.
+        Huonetta varatessanne, mainitsettehan, että kyseessä ovat Elsa Lindholm ja Matt Newbigging
+        häät. Teiltä ei tulla ottamaan maksua huonetta varatessanne. Maksu otetaan yleensä 24 tuntia
+        ennen varauksen alkua. Lisätietoa tästä saatte hotellilta.
       </div>
 
       <div className='type-header'>Other accommodation in Kelso</div>

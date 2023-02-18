@@ -22,6 +22,14 @@ export const FaqSection: React.FC = () => {
         <div className='type-text'>
           Oh, and feel free to change into comfier shoes for the dance!
         </div>
+        <div className='type-header'>Are plus ones allowed?</div>
+        <div className='type-text type-semibold'>Saanko tuoda juhliin avecin?</div>
+        <div className='type-text'>
+          Your invitation will have a (+1) symbol next to your name if a plus one is allowed.
+        </div>
+        <div className='type-translation'>
+          Hääkutsussa nimesi vieressä on (+1), jos avec sallitaan.
+        </div>
         <div className='type-header'>What kind of ceremony are you having?</div>
         <div className='type-text type-semibold'>Millainen hääseremonianne tulee olemaan?</div>
         <div className='type-text'>

@@ -22,7 +22,7 @@ export const RegistrySection: React.FC = () => {
           <div className='type-text'>
             However, if you'd still like to spoil us, we've picked out a
   </div>*/}
-          <div>Section still under construction...</div>
+          <div className='type-text'>Section still under construction...</div>
         </div>
       </div>
     </div>
