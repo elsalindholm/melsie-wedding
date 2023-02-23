@@ -9,11 +9,14 @@ export const HowToGetThereSection: React.FC = () => {
       <div className='type-header'>By car</div>
       <div className='type-text'>
         Our venue is located in the heart of the Borders town Kelso. Google maps will direct you to
-        the correct place. There's free parking available at the venue.
+        the correct place. There's free parking available at the venue.If the hotel car park is
+        full, there's a free car park nearby called the Knowes Car Park (max.stay 60h - checked in
+        Feb 2023).
       </div>
       <div className='type-translation'>
         Hääpaikkamme sijaitsee Kelson keskustassa. Google Maps -sovellus ohjeistaa teidät oikeaan
-        paikkaan. Parkkeeraus hotellin parkkipaikalla on ilmaista.
+        paikkaan. Parkkeeraus hotellin parkkipaikalla on ilmaista. Jos hotellin parkkipaikka on
+        täynnä, läheltä löytyy ilmainen parkkialue: the Knowes Car Park (max. 60h kerrallaan).
       </div>
 
       <div className='type-header'>By public transport</div>
