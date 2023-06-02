@@ -40,9 +40,9 @@ export const FaqSection: React.FC = () => {
         <div className='type-header'>Are we allowed to take photos during the celebrations?</div>
         <div className='type-text type-semibold'>Voimmeko ottaa kuvia juhlien aikana?</div>
         <div className='type-text'>
-          We kindly ask that you don't take photos during the wedding ceremony as we'd rather see
-          your faces than your phones. We have hired a photographer to take wonderful photos of the
-          day and we'd love to share the best ones with you after the wedding!
+          We kindly ask that you don't take photos during the wedding ceremony as we'd rather you
+          get to enjoy the moment. We have hired a photographer to take wonderful photos of the day
+          and we'd love to share the best ones with you after the wedding!
         </div>
         <div className='type-translation'>
           Pyydämme ystävällisesti, että vieraamme eivät kuvaa hääseremonian aikana. Mukana juhlissa

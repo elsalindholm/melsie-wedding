@@ -20,11 +20,17 @@ export const RsvpSection: React.FC = () => {
         </div>
         <div className='type-text'>
           Please respond using the link below. We kindly ask each adult guest to fill in the form
-          separately.
+          separately. We also ask that you choose your menu options and inform us about any dietary
+          requirements you have.
         </div>
-        <a className='link-white' href='https://forms.gle/5fsYCDU5WkNMrmed9' target='_blank'>
-          RESPOND HERE
-        </a>
+        <div className='button-container'>
+          <a className='rsvp-button' href='https://forms.gle/5fsYCDU5WkNMrmed9' target='_blank'>
+            Respond here
+          </a>
+          <a className='rsvp-button' href='https://forms.gle/q1oSbpG9YDZHUi649' target='_blank'>
+            Choose your menu here
+          </a>
+        </div>
         <div className='type-text'>
           If you have any issues with the form, you can also rsvp via email to
           <br />
@@ -34,15 +40,17 @@ export const RsvpSection: React.FC = () => {
         <div className='translation-container'>
           <div className='type-translation'>
             Pyydämme teitä ystävällisesti vastaamaan kutsuumme maanantai 4. syyskuuta 2023 mennessä.
-            Voitte vastata alla olevan linkin kautta.
+            Pyydämme teitä myös valitsemaan toivomasi ateriavahtoehdot ja ilmoittamaan meille
+            erityisruokavalioista. Voitte vastata ja valita ruokalajit alla olevien linkkien kautta.
           </div>
-          <a
-            className='link-white translation-link'
-            href='https://forms.gle/5fsYCDU5WkNMrmed9'
-            target='_blank'
-          >
-            Vastaa täällä
-          </a>
+          <div className='button-container'>
+            <a className='rsvp-button' href='https://forms.gle/5fsYCDU5WkNMrmed9' target='_blank'>
+              Vastaa kutsuun täällä
+            </a>
+            <a className='rsvp-button' href='https://forms.gle/q1oSbpG9YDZHUi649' target='_blank'>
+              Valitse juhla-aterian ruokalajit
+            </a>
+          </div>
           <div className='type-translation'>
             Jos linkki ei jostain syystä toimi, voitte vastata sähköpostitse osoitteeseen
             elsaandmattwedding@gmail.com.
