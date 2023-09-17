@@ -67,38 +67,61 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
             1pm
           </div>
           <div className='type-text'>
-            Our ceremony will take place in Ednam House Hotel. Please arrive at least 30 minutes
-            before.
+            Our ceremony will take place in the Ednam Room, at Ednam House Hotel. Please arrive at
+            least 30 minutes before.
           </div>
           <div className='type-translation'>
-            Hääseremoniamme pidetään Ednam House Hotellissa. Pyydämme teitä ystävällisesti saapumaan
-            hyvissäajoin, ainakin 30min ennen seremonian alkua.
+            Hääseremoniamme pidetään Ednam Roomissa, Ednam House Hotellissa. Pyydämme teitä
+            ystävällisesti saapumaan hyvissäajoin, ainakin 30min ennen seremonian alkua.
           </div>
           <div className='timeline-cont'>
             <div className='timeline'></div>
           </div>
 
           <div className='type-header type-header-m10'>Drinks & photos</div>
-          <div className='type-text'>Time TBC</div>
+          <div className='type-text'>1.30pm</div>
           <div className='type-text'>
-            After the ceremony we will enjoy a glass of bubbly and take a few group photos.
+            After the ceremony we will enjoy a glass of bubbly at the bar and take a few group
+            photos.
           </div>
           <div className='type-translation'>
-            Seremonian jälkeen nautimme lasin kuplivaa ja otamme muutamat ryhmäkuvat valokuvaajan
-            kanssa.
+            Seremonian jälkeen nautimme lasin kuplivaa baarin puolella ja otamme muutamat ryhmäkuvat
+            valokuvaajan kanssa.
           </div>
 
           <div className='timeline-cont'>
             <div className='timeline'></div>
           </div>
 
-          <div className='type-header type-header-m10'>Evening reception</div>
-          <div className='type-text'>Time TBC</div>
+          <div className='type-header type-header-m10'>Speeches</div>
+          <div className='type-text'>3.30pm</div>
           <div className='type-text'>
-            We will sit down and enjoy a celebratory meal at the reception space.
+            We make our way back into the Ednam Room for the speeches.
+          </div>
+          <div className='type-translation'>Palaamme Ednam Roomiin kuuntelemaan puheita.</div>
+
+          <div className='timeline-cont'>
+            <div className='timeline'></div>
+          </div>
+
+          <div className='type-header type-header-m10'>Dinner</div>
+          <div className='type-text'>4pm</div>
+          <div className='type-text'>We enjoy a celebratory meal in Ednam Room.</div>
+          <div className='type-translation'>Nautimme juhla-aterian.</div>
+
+          <div className='timeline-cont'>
+            <div className='timeline'></div>
+          </div>
+
+          <div className='type-header type-header-m10'>Mingle & freshen up</div>
+          <div className='type-text'>6pm</div>
+          <div className='type-text'>
+            While our band is getting set up, take a moment to socialise, freshen up and get your
+            dancing shoes on.
           </div>
           <div className='type-translation'>
-            Siirrymme takaisin juhlasaliin nauttimaan juhla-aterian.
+            Bändin valmistellessa illan tanssia varten on aikaa seurustella ja käydä vaihtamassa
+            tanssikengät jalkaan.
           </div>
 
           <div className='timeline-cont'>
@@ -106,9 +129,30 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           </div>
 
           <div className='type-header type-header-m10'>Cèilidh</div>
-          <div className='type-text'>Time TBC</div>
-          <div className='type-text'>We continue to dance the night away.</div>
+          <div className='type-text'>7pm</div>
+          <div className='type-text'>We dance the night away.</div>
           <div className='type-translation'>Jatkamme juhlaa tanssin merkeissä.</div>
+
+          <div className='timeline-cont'>
+            <div className='timeline'></div>
+          </div>
+
+          <div className='type-header type-header-m10'>Snacks</div>
+          <div className='type-text'>9pm</div>
+          <div className='type-text'>
+            We take a short break to refuel with some snacks (not to worry - the dance will
+            continue).
+          </div>
+          <div className='type-translation'>
+            Otamme tauon pienen purtavan kera. Tanssi jatkuu tämän jälkeen!
+          </div>
+
+          <div className='timeline-cont'>
+            <div className='timeline'></div>
+          </div>
+
+          <div className='type-header type-header-m10'>We say goodnight</div>
+          <div className='type-text'>12am</div>
         </div>
       </div>
     </div>

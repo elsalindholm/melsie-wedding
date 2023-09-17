@@ -14,48 +14,13 @@ export const RsvpSection: React.FC = () => {
       <div className='text-container'>
         <div className='type-title'>RSVP</div>
         <div className='type-text'>
-          We kindly ask you to let us know whether you will be able to join our celebrations by
-          <br />
-          <span className='type-semibold'>Monday the 4th of September 2023</span>.
+          Deadline to respond has passed. Thank you for responding to our invitations!
         </div>
         <div className='type-text'>
-          Please respond using the link below. We kindly ask each adult guest to fill in the form
-          separately. We also ask that you choose your menu options and inform us about any dietary
-          requirements you have.
+          For those who have confirmed their attendance: if your circumstances change, please let us
+          know as soon as possible via email to
         </div>
-        <div className='button-container'>
-          <a className='rsvp-button' href='https://forms.gle/5fsYCDU5WkNMrmed9' target='_blank'>
-            Respond here
-          </a>
-          <a className='rsvp-button' href='https://forms.gle/q1oSbpG9YDZHUi649' target='_blank'>
-            Choose your menu here
-          </a>
-        </div>
-        <div className='type-text'>
-          If you have any issues with the form, you can also rsvp via email to
-          <br />
-          elsaandmattwedding@gmail.com
-          <br />
-        </div>
-        <div className='translation-container'>
-          <div className='type-translation'>
-            Pyydämme teitä ystävällisesti vastaamaan kutsuumme maanantai 4. syyskuuta 2023 mennessä.
-            Pyydämme teitä myös valitsemaan toivomasi ateriavahtoehdot ja ilmoittamaan meille
-            erityisruokavalioista. Voitte vastata ja valita ruokalajit alla olevien linkkien kautta.
-          </div>
-          <div className='button-container'>
-            <a className='rsvp-button' href='https://forms.gle/5fsYCDU5WkNMrmed9' target='_blank'>
-              Vastaa kutsuun täällä
-            </a>
-            <a className='rsvp-button' href='https://forms.gle/q1oSbpG9YDZHUi649' target='_blank'>
-              Valitse juhla-aterian ruokalajit
-            </a>
-          </div>
-          <div className='type-translation'>
-            Jos linkki ei jostain syystä toimi, voitte vastata sähköpostitse osoitteeseen
-            elsaandmattwedding@gmail.com.
-          </div>
-        </div>
+        <div className='type-text'>elsaandmattwedding@gmail.com</div>
       </div>
     </div>
   );

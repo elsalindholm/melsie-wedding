@@ -3,7 +3,7 @@
 .rsvp-section {
   width: 100%;
   //padding: 50px 0;
-  height: 1000px;
+  height: 500px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -11,19 +11,6 @@
   align-items: center;
   text-align: center;
   color: $textWhite;
-
-  @media only screen and (max-width: 333px) {
-    height: 1450px;
-  }
-  @media only screen and (min-width: 334px) and (max-width: 385px) {
-    height: 1350px;
-  }
-  @media only screen and (min-width: 386px) and (max-width: 389px) {
-    height: 1200px;
-  }
-  @media only screen and (min-width: 390px) and (max-width: 550px) {
-    height: 1100px;
-  }
 
   .text-container {
     width: 100%;
