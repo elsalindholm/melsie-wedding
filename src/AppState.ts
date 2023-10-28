@@ -47,7 +47,7 @@ export class AppState {
 
   private countdownTimer() {
     const today = new Date();
-    const weddingDate = new Date(2023, 10, 5, 13, 0, 0);
+    const weddingDate = new Date(2023, 10, 5, 12, 0, 0);
 
     const oneDay = 1000 * 60 * 60 * 24;
     const oneHour = 1000 * 60 * 60;

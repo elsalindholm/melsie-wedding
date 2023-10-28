@@ -48,7 +48,7 @@ export const WeddingSection: React.FC<WeddingSectionProps> = ({ appState }) => {
           <div className='type-text'>
             Saturday 4th November
             <br />
-            Time TBC
+            19:30 - 21:30
           </div>
           <div className='type-text'>
             If you are arriving to the hotel/area the night before, you are very welcome to join us
